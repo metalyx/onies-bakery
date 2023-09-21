@@ -8,6 +8,8 @@
 
     transition: all 400ms;
     transition-delay: 50ms;
+
+    text-shadow: 2px 1px 2px rgb(184, 184, 184);
 }
 
 .primary-button.white-variant {
@@ -17,8 +19,9 @@
 
 .primary-button:hover {
     border: 2px solid $white;
-    color: $l-black;
+    color: $bg-l-green;
     background-color: $white;
+    text-shadow: none;
 }
 
 @keyframes primary-button-hover {
