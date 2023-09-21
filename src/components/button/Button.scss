@@ -1,0 +1,30 @@
+@import '@styles/variables';
+
+.primary-button {
+    border: 2px solid $l-black;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: Oswald, sans-serif;
+
+    transition: all 400ms;
+    transition-delay: 50ms;
+}
+
+.primary-button.white-variant {
+    border: 2px solid $white;
+    color: $white;
+}
+
+.primary-button:hover {
+    border: 2px solid $white;
+    color: $l-black;
+    background-color: $white;
+}
+
+@keyframes primary-button-hover {
+    100% {
+        border: 2px solid $l-black;
+        color: $white;
+        background-color: $l-black;
+    }
+}

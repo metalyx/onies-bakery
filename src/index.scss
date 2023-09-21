@@ -1,0 +1,32 @@
+html {
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+button {
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('@assets/fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: url('@assets/fonts/DancingScript-Regular.ttf');
+}

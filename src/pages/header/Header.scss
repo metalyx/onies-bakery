@@ -1,0 +1,47 @@
+@import '@styles/variables';
+
+.header-container {
+    background-color: $bg-l-green;
+    height: 4rem;
+
+    .header-content {
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .navigation-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        // > div {
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     height: 100%;
+        // }
+
+        .header-nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .header-nav a {
+            font-family: Oswald, sans-serif;
+            color: $white;
+        }
+    }
+}

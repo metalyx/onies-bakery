@@ -1,0 +1,9 @@
+@import '@styles/variables.scss';
+
+.title {
+    display: inline-block;
+    font-family: DancingScript, sans-serif;
+
+    font-size: 2rem;
+    color: $white;
+}
